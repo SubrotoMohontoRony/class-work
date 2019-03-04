@@ -1,0 +1,202 @@
+*{
+	
+}
+body{
+	margin:0;
+	padding:0;
+	font-family:Arial, Helvetica, sans-serif;
+}
+img{
+	width:100%;
+}
+.header{
+	
+}
+/*header area start*/
+.container{
+	width:100%;
+	margin:0 ;
+	overflow:hidden;
+}
+.logo{
+	float:left;
+	width:30%;
+	padding-top:20px;
+}
+.logo img{
+	width:35%;
+
+}
+.menubar{
+	float:left;
+	width:70%;
+	padding-top:30px;
+	box-sizing:boder-box;
+}
+.menubar ul{
+	text-align:right;
+	padding-top:13px;
+	margin:0;
+}
+.menubar ul li{
+	list-style:none;
+	display:inline-block;
+	
+}
+.menubar ul li a{
+	text-decoration:none;
+	display:block;
+	color: #707b7c ;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-left:40px;
+	padding-right:40px;
+	text-transform:uppercase;
+	font-weight:600;
+	font-size:14px;
+	transition:1s;
+}
+.menubar ul li a:hover{
+	color:black;
+	background:#7c8274a8 ;
+	border-radius:50px;
+	border:1px solid  #abb2b9 ;
+	
+}
+
+/*header area end*/
+.banner img{
+	display:block;
+	width:100%;
+	
+}
+
+/*text content area start*/
+.content{
+	width:1200px;
+	margin:0 auto;
+}
+.text{
+	margin-top:80px;
+}
+.text h6{
+	font-family:Arial;
+	color:#707b7c;
+	text-transform:uppercase;
+}
+.text h2{
+	font-family:Bodoni MT;
+	color:#657475;
+	text-transform:capitalize;
+	font-size:25px;
+}
+.text p{
+	font-family:Arial;
+	line-height:25px;
+	color:#707b7c;
+	text-transform:capitalize;
+	text-align:justify;
+	font-size:15px;
+}
+/*text content area start*/
+
+
+
+/*text and image start*/
+.text-img{
+	width:1200px;
+	margin:0 auto;
+	
+}
+.coloum{
+	overflow:hidden;
+
+}
+.col{
+	float:left;
+	width:50%;
+	padding-right:55px;
+	padding-top:50px;
+	box-sizing:border-box;
+	
+}
+.col img{
+	width:100%;
+	
+}
+.col h6{
+	font-family:Arial;
+	color:#707b7c;
+	text-transform:uppercase;
+}
+.col h2{
+	font-family:Bodoni MT;
+	color:#657475;
+	text-transform:capitalize;
+	font-size:25px;
+}
+.col p{
+	font-family:Arial;
+	line-height:25px;
+	color:#707b7c;
+	text-transform:capitalize;
+	text-align:justify;
+	font-size:15px;
+}
+/*text and image end*/
+.anchor{
+	
+}
+.anchor1{
+	background:#eaecee;
+	width:1200px;
+	height:200px;
+	margin:0 auto;
+	position:relative;
+}
+.email{
+	padding:30px;
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	
+}
+.email input{
+	box-sizing:border-box;
+	box-shadow:none;
+	outline:none;
+	border:none;
+	border-bottom:1px solid  #808b96 ;
+	width:100%;
+	color:#657475;
+	background:none;
+	margin-top:20px;
+}
+.email h2{
+	font-family:Bodoni MT;
+	color:#657475;
+	text-transform:capitalize;
+	margin-top:20px;
+	font-size:25px;
+}
+
+
+
+.fotter h1{
+	text-align:center;
+	font-size:18px;
+	font-family:Arial;
+}
+.fotter h1 a{
+	display:inline-block;
+	text-decoration:none;
+	border:1px solid #657475;
+	border-radius:5px;
+	color:#657475;
+	padding:10px;
+}
+.fotter h1 a:hover{
+	background:#657475;
+	color:#fff;
+}
